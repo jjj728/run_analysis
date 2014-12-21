@@ -19,6 +19,10 @@ Variable explanation
 
 3. In column 3~88, the variable names have multiple components. 
    (1) The first component is "t" or "f". "t" means time domain signal and "f" means frequency domain signals.
-   (2) The second componnent is "BodyAcc" or "GravityAcc". "BodyAcc" means body acceleration singals and "GravityAcc" means gravity 
-       acceleration singals. 
-   (3) The third component is 
+   (2) The second componnent is "Body" or "Gravity". "Body" means body singals and "GravityAcc" means gravity singals. 
+   (3) The third component is "Acc" or "Gyro". "Acc" means accelerometer 3-axial raw signals and "Gyro" means gyroscope 
+       3-axial raw signals.
+   (4) The fourth component is "Jerk" or "Mag" (may not exist). "Jerk" means Jerk singals and "Mag" means the magnitude 
+       of these three-dimensional signals calculated using the Euclidean norm.
+   (5) The fifth component is "-mean" or "-std". "-mean" means the mean value of the measurement and "-std" means the 
+       standard deviations of the measurement.
