@@ -26,7 +26,7 @@ Variable explanation
        of these three-dimensional signals calculated using the Euclidean norm.
    (5) The fifth component is "-mean" or "-std". "-mean" means the mean value of the measurement and "-std" means the 
        standard deviations of the measurement.
-   (6)  The sixth component is "X", "Y" or "Z". They characterize the singals on different axis. 
+   (6) The sixth component is "-X", "-Y" or "-Z". They characterize the singals on different axis. 
       
 --------
 Examples
