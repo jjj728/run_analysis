@@ -1,0 +1,24 @@
+-----------------
+Project code book 
+-----------------
+
+-----------
+Description
+-----------
+The dataset contains 88 columns and 180 rows. The 1st column contains the activity information. the 2nd column contains 
+the subject information. Column 3~88 contain measurement information for each activity and each subject. Since there are
+6 activities and 30 subjects, we have 6*30 = 180 rows in total.
+
+--------------------
+Variable explanation
+--------------------
+
+1. Six activity names are in the 1st column: walking, walking_upstairs, walking_downstairs, sitting, standing, laying.
+
+2. 30 subjects are in the 2nd column, they are labelled with different values (1~30).
+
+3. In column 3~88, the variable names have multiple components. 
+   (1) The first component is "t" or "f". "t" means time domain signal and "f" means frequency domain signals.
+   (2) The second componnent is "BodyAcc" or "GravityAcc". "BodyAcc" means body acceleration singals and "GravityAcc" means gravity 
+       acceleration singals. 
+   (3) The third component is 
